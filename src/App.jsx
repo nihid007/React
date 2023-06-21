@@ -5,6 +5,7 @@ import './App.css'
 import{Routes,Route} from "react-router-dom";
 import Register from './pages/Register';
 import Main from './pages/Main';
+import End from './pages/End';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +16,7 @@ function App() {
      
     <Route path="/" exact element={<Register />} />
     <Route path="/main-home" exact element={<Main/>} />
+    <Route path="/end-home" exact element={<End/>} />
 
 
     </Routes>
